@@ -16,6 +16,9 @@ class BDHomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.title = "首页"
         self.view.backgroundColor = .white
+        BDNetworkTool.loadHomeNewsTitleData { (str) in
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

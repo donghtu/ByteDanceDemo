@@ -3,4 +3,6 @@ use_frameworks!
 
 target 'ByteDanceDemo' do
     pod 'Alamofire', '~> 4.6'
+    pod 'SwiftyJSON', '~> 4.0'
+    pod 'HandyJSON', '~> 4.1.1'
 end

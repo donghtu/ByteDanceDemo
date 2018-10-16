@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378CD0BC21757A9E00327256 /* BDNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378CD0BB21757A9E00327256 /* BDNetworkTool.swift */; };
+		378CD0BE2175826D00327256 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378CD0BD2175826D00327256 /* Const.swift */; };
+		378CD0C02175AD3B00327256 /* BDHomeNewsTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378CD0BF2175AD3B00327256 /* BDHomeNewsTitleModel.swift */; };
 		37A46BF92174701E00A0C72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A46BF82174701E00A0C72C /* AppDelegate.swift */; };
 		37A46BFB2174701E00A0C72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A46BFA2174701E00A0C72C /* ViewController.swift */; };
 		37A46BFE2174701E00A0C72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A46BFC2174701E00A0C72C /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		378CD0BB21757A9E00327256 /* BDNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDNetworkTool.swift; sourceTree = "<group>"; };
+		378CD0BD2175826D00327256 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		378CD0BF2175AD3B00327256 /* BDHomeNewsTitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDHomeNewsTitleModel.swift; sourceTree = "<group>"; };
 		37A46BF52174701E00A0C72C /* ByteDanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteDanceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A46BF82174701E00A0C72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A46BFA2174701E00A0C72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 				37A46C0D2174743300A0C72C /* BDHomeViewController.swift */,
 				37A46C0F2174785500A0C72C /* BDVideoViewController.swift */,
 				37A46C1121747A6400A0C72C /* BDShorterVideoViewController.swift */,
+				378CD0BB21757A9E00327256 /* BDNetworkTool.swift */,
+				378CD0BD2175826D00327256 /* Const.swift */,
+				378CD0BF2175AD3B00327256 /* BDHomeNewsTitleModel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -189,10 +198,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ByteDanceDemo/Pods-ByteDanceDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -243,9 +256,12 @@
 				37A46BFB2174701E00A0C72C /* ViewController.swift in Sources */,
 				37A46C102174785500A0C72C /* BDVideoViewController.swift in Sources */,
 				37A46C0C217472C200A0C72C /* BDTabBarViewController.swift in Sources */,
+				378CD0BC21757A9E00327256 /* BDNetworkTool.swift in Sources */,
+				378CD0C02175AD3B00327256 /* BDHomeNewsTitleModel.swift in Sources */,
 				37A46BF92174701E00A0C72C /* AppDelegate.swift in Sources */,
 				37A46C0E2174743300A0C72C /* BDHomeViewController.swift in Sources */,
 				37A46C1421747B8200A0C72C /* BDSmallTopicsViewController.swift in Sources */,
+				378CD0BE2175826D00327256 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
